@@ -33,7 +33,7 @@ class Produto(object):
         soup = BeautifulSoup(site.content, 'html.parser')
         for a in soup.findAll('a', attrs={'class': 'productImage'}): 
                 #adiciona, já formatado, os produtos na lista
-            export_parcial.append('Nome: %s, Link: %s' %(a.get('title'), 
+            export_parcial.append('Nome: %s; Link: %s;' %(a.get('title'), 
                                                          a.get('href')))
         return export_parcial
             
