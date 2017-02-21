@@ -1,0 +1,42 @@
+﻿====================================================================
+	PROCESSO DE INSTALAÇÃO DO PYTHON E SUAS BIBLIOTECAS
+====================================================================
+
+--------->PYTHON 2.7<----------
+
+1 - Acesse o site oficial para baixar o instalador do Python 2.7.13 (https://www.python.org/downloads/)
+2 - Clique em "Download Python 2.7.13"
+3 - Espere a finalização do download do instalador e abra-o.
+4 - Clique em "Run"
+5 - Selecione se deseja intalá-lo para todos os usuários ou apenas para o usuário atual
+6 - Selecione a pasta de instalação desejada. O padrão é altamente recomendado.
+7 - Na tela de customização, clique em "add python.exe to Path"
+8 - Em seguida clique em "Will be installed on local hard drive"
+9 - Você poderá notar que será aberto um terminal como um log do processo de instalação do Python.
+10 - Em seguida retornará a tela de instalação anterior, solicitando sua finalização.
+11 - Abra seu terminal e digite "Python.exe" para checar se o Python está instalado corretamente.
+11.2 - Se estiver, aparecerá a versão atual do python.
+11.3 - se não estiver, reinicie a máquina e volte ao passo 1.
+12 - Feche o prompt de comando
+
+--------->BEAUTIFULSOUP<----------
+
+13 - Abra o prompt de comando e digite: "pip install beautifulsoup4"
+14 - Reinicie o prompt de comando
+
+--------->REQUESTS<----------
+
+15 - Abra o prompt de comando e digite: "pip install requests"
+16 - Reinicie o prompt de comando
+
+--------->Verificando a Instalação de Todos os pacotes necessários<----------
+
+17 - Abra o prompt de comando
+18 - navegue até a pasta que possui o arquivo do desafio-captura
+19 - digite verify.py
+20 - deverá exibir uma lista com todas as bibliotecas instaladas 
+
+--------->WEB SCRAPPING AO VIVAÇO<----------
+
+21 - com o terminal aberto, digite: main.py e deixe rodar
+22 - Após alguns minutos, abra o arquivo csvfile.csv com o excel para checar se todos os produtos foram registrados
