@@ -1,0 +1,16 @@
+1) Você terá passos gerais que serão templates/classes que criarão referências a objetos 
+   para cada site que for ser crawleado.
+   Sem precisar ficar mexendo na estrutura desses passos.
+   Só precisará criar um método para a estrutura de cada site, 
+   mas os passos em comum não serão reescritos.
+
+2) com selenium você consegue evitar esse problema. porém com requisição normal, 
+   você não consegue buscar esses dados, pois só puxa o html puro. 
+   Ou se utiliza o selenium, ou você tem que buscar uma brecha no site para encontrar 
+   a requisição especfífica referente ao javascript que carrega esse preço.
+
+3) é muito comum. ou o cliente deixa você ter acesso ao ip do servidor, 
+   ou se utiliza diversos proxys que podem ser obitidos como produtos 
+   por fornecedores especializados
+
+4) com o selenium você consegue definir o timing entre cada requisição feita.
